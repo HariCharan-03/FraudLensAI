@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+backend/venv/
+venv/
+ENV/
+env/
+*.egg-info/
+.installed.cfg
+*.egg
+build/
+dist/
+
+# Machine Learning & Data Artifacts
+# Keep small metadata and sample test artifacts, ignore huge raw downloads from git
+data/raw/*.zip
+data/raw/*.csv
+data/processed/*.csv
+*.sqlite3
+*.db
+.pytest_cache/
+
+# Node & Frontend
+node_modules/
+frontend/dist/
+frontend/dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store

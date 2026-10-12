@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "model_type": "RandomForest",
+  "feature_names": [
+    "URLLength",
+    "DomainLength",
+    "IsDomainIP",
+    "TLDLength",
+    "NoOfSubDomain",
+    "HasObfuscation",
+    "NoOfObfuscatedChar",
+    "ObfuscationRatio",
+    "NoOfLettersInURL",
+    "LetterRatioInURL",
+    "NoOfDegitsInURL",
+    "DegitRatioInURL",
+    "NoOfEqualsInURL",
+    "NoOfQMarkInURL",
+    "NoOfAmpersandInURL",
+    "NoOfOtherSpecialCharsInURL",
+    "SpacialCharRatioInURL",
+    "IsHTTPS",
+    "CharContinuationRate",
+    "URLSimilarityIndex",
+    "TLDLegitimateProb",
+    "URLCharProb"
+  ],
+  "num_features": 22,
+  "target_mapping": {
+    "0": "Legitimate",
+    "1": "Phishing"
+  },
+  "trained_date": "2026-10-10 23:42:26"
+}
